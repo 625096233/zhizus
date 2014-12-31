@@ -1,6 +1,6 @@
 #Zhizu Shop
 >基于spring mvc＋mongoDB＋redis(Cache)实现的轻量级高性能的小型网上商城系统，前端和后台管理页面基于Metorinic提供的模版修改，页面优雅大方。
-演示地址：[link](http://www.zhizus.com)
+演示地址：[www.zhizus.com](http://www.zhizus.com)
 
 
 ###front前台接口
