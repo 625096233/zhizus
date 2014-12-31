@@ -25,5 +25,8 @@
         <module name="zhizus" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zhizus" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
