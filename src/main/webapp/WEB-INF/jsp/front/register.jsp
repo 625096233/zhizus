@@ -63,53 +63,58 @@
 <div class="main">
   <div class="container">
     <ul class="breadcrumb">
-      <li><a href="index.html">主页</a></li>
+      <li><a href="index.html">首页</a></li>
       <li><a href="">Store</a></li>
-      <li class="active">登陆</li>
+      <li class="active">注册</li>
     </ul>
     <!-- BEGIN SIDEBAR & CONTENT -->
     <div class="row margin-bottom-40">
-     <jsp:include page="commons/sliderbar.jsp"></jsp:include>
+      <!-- BEGIN SIDEBAR -->
+      <jsp:include page="commons/sliderbar.jsp"></jsp:include>
+      <!-- END SIDEBAR -->
 
       <!-- BEGIN CONTENT -->
       <div class="col-md-9 col-sm-9">
-        <h1>登陆</h1>
+        <h1>注册新用户</h1>
         <div class="content-form-page">
           <div class="row">
             <div class="col-md-7 col-sm-7">
-              <form class="form-horizontal form-without-legend" role="form" action="/user/login">
-                <div class="form-group">
-                  <label for="email" class="col-lg-4 control-label">邮箱 <span class="require">*</span></label>
-                  <div class="col-lg-8">
-                    <input type="text" class="form-control" id="email" name="email">
+              <form class="form-horizontal" role="form" action="/user/register">
+                <fieldset>
+                  <legend>你的个人信息</legend>
+                  <div class="form-group">
+                    <label for="nickname" class="col-lg-4 control-label">昵称 <span class="require">*</span></label>
+                    <div class="col-lg-8">
+                      <input type="text" class="form-control" id="nickname" name="nickname">
+                    </div>
                   </div>
-                </div>
-                <div class="form-group">
-                  <label for="password" class="col-lg-4 control-label">密码 <span class="require">*</span></label>
-                  <div class="col-lg-8">
-                    <input type="password" class="form-control" id="password" name="password">
+                  <div class="form-group">
+                    <label for="email" class="col-lg-4 control-label">邮箱 <span class="require">*</span></label>
+                    <div class="col-lg-8">
+                      <input type="text" class="form-control" id="email" name="email">
+                    </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-8 col-md-offset-4 padding-left-0">
-                    <a href="forgotton-password.html">忘记密码?</a>
+                </fieldset>
+                <fieldset>
+                  <legend>你的密码</legend>
+                  <div class="form-group">
+                    <label for="password" class="col-lg-4 control-label">密码 <span class="require">*</span></label>
+                    <div class="col-lg-8">
+                      <input type="text" class="form-control" id="password" name="password">
+                    </div>
                   </div>
-                </div>
+                  <div class="form-group">
+                    <label for="confirm-password" class="col-lg-4 control-label">重复密码<span class="require">*</span></label>
+                    <div class="col-lg-8">
+                      <input type="text" class="form-control" id="confirm-password" name="confirmPassword">
+                    </div>
+                  </div>
+                </fieldset>
+
                 <div class="row">
                   <div class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-20">
-                    <button type="submit" class="btn btn-primary">登陆</button>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-10 padding-right-30">
-                    <hr>
-                    <div class="login-socio">
-                      <p class="text-muted">第三方登陆:</p>
-                      <ul class="social-icons">
-                        <li><a href="#" data-original-title="facebook" class="facebook" title="qq"></a></li>
-                        <li><a href="#" data-original-title="Twitter" class="twitter" title="微博"></a></li>
-                      </ul>
-                    </div>
+                    <button type="submit" class="btn btn-primary">注册</button>
+                    <button type="button" class="btn btn-default">取消</button>
                   </div>
                 </div>
               </form>
