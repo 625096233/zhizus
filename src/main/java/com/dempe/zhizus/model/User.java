@@ -1,5 +1,7 @@
 package com.dempe.zhizus.model;
 
+import org.mongodb.morphia.annotations.Id;
+
 /**
  * 用户信息表
  * Created with IntelliJ IDEA.
@@ -9,6 +11,8 @@ package com.dempe.zhizus.model;
  * To change this template use File | Settings | File Templates.
  */
 public class User {
+
+    @Id
     private String id;
     private String name;
     private String nickName;
@@ -18,5 +22,5 @@ public class User {
     private String password;
     private long createAt;
     private int age;
-    private String address;
+    private String     address;
 }

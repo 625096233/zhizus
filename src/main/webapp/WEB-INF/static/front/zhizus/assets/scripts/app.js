@@ -230,7 +230,6 @@ var App = function () {
         init: function () {
             // init core variables
             handleInit();
-            // init on window resize handlers
             handleResponsiveOnResize();
             handleIEFixes();
             handleSearch();
@@ -299,7 +298,7 @@ var App = function () {
                         maxSlides: slides,
                         slideWidth: slideWidth,
                         slideMargin: slideMargin,
-                        moveSlides:1,
+                        moveSlides:5,
                         responsive:true
                     });
                 } else {
@@ -309,7 +308,7 @@ var App = function () {
                         maxSlides: slides,
                         slideWidth: slideWidth,
                         slideMargin: slideMargin,   
-                        moveSlides:1,
+                        moveSlides:5,
                         responsive:true
                     });
                     $(this).data("bxslider", slider);
