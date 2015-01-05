@@ -26,7 +26,7 @@ public class UserService {
 
     public User register(String nickname,String email,String password){
         User user = new User();
-        user.setNickName(nickname);
+        user.setNickname(nickname);
         user.setEmail(email);
         user.setPassword(password);
         userDao.save(user);

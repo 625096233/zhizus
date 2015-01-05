@@ -8,7 +8,7 @@
       <!-- BEGIN TOP BAR LEFT PART -->
       <div class="col-md-6 col-sm-6 additional-shop-info">
         <ul class="list-unstyled list-inline">
-          <li><i class="fa fa-phone"></i><span>+188-1927-3697</span></li>
+          <li><i class="fa fa-phone"></i><span>188-1927-3697</span></li>
           <!-- BEGIN LANGS -->
           <li class="langs-block">
             <a href="javascript:void(0);" class="current">简体中文 <i class="fa fa-angle-down"></i></a>
@@ -24,7 +24,7 @@
       <!-- BEGIN TOP BAR MENU -->
       <div class="col-md-6 col-sm-6 additional-nav">
         <ul class="list-unstyled list-inline pull-right">
-          <li><a href="#">的账户</a></li>
+          <li><a href="#">${user.nickname}的账户</a></li>
           <li><a href="checkout.html">注销</a></li>
           <li><a href="/user/loginPage">登陆</a></li>
           <li><a href="/user/registerPage">注册</a></li>
@@ -132,7 +132,7 @@
       <ul class="nav navbar-nav">
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" data-delay="0" data-close-others="false" data-target="product-list.html" href="product-list.html">
-            Woman
+            女装
             <i class="fa fa-angle-down"></i>
           </a>
           <!-- BEGIN DROPDOWN MENU -->
@@ -201,7 +201,7 @@
           </ul>
           <!-- END DROPDOWN MENU -->
         </li>
-        <li><a href="product-list.html">Men</a></li>
+        <li><a href="product-list.html">男装</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" data-delay="0" data-close-others="false" data-target="product-list.html" href="product-list.html">
             Kids
