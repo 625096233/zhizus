@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!-- BEGIN TOP BAR -->
 <div class="pre-header">
@@ -24,10 +24,16 @@
       <!-- BEGIN TOP BAR MENU -->
       <div class="col-md-6 col-sm-6 additional-nav">
         <ul class="list-unstyled list-inline pull-right">
-          <li><a href="#">${user.nickname}的账户</a></li>
-          <li><a href="checkout.html">注销</a></li>
-          <li><a href="/user/loginPage">登陆</a></li>
-          <li><a href="/user/registerPage">注册</a></li>
+          <c:choose>
+            <c:when test="${empty user.nickname}">
+              <li><a href="/user/loginPage">登陆</a></li>
+              <li><a href="/user/registerPage">注册</a></li>
+            </c:when>
+            <c:otherwise>
+              <li><a href="#">${user.nickname}的账户</a></li>
+              <li><a href="checkout.html">注销</a></li>
+            </c:otherwise>
+          </c:choose>
         </ul>
       </div>
       <!-- END TOP BAR MENU -->
