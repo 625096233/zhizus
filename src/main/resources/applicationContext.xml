@@ -32,9 +32,15 @@
        <context:annotation-config/>
        <!-- 主动搜索以下目录 -->
 
-       <bean id="multipartResolver"
-             class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
-             p:defaultEncoding="utf-8"/>
+
+
+
+       <!-- 文件上传 -->
+       <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+              <property name="defaultEncoding" value="UTF-8"></property>
+              <property name="maxUploadSize" value="52428800"></property>
+              <property name="uploadTempDir" value="resources"></property>
+       </bean>
 
 
 </beans>
