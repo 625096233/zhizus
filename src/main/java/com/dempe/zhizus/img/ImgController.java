@@ -22,11 +22,9 @@ import java.io.IOException;
 public class ImgController {
 
 
-    public String uploadImg(HttpServletRequest request) {
-        String realPath = request.getSession().getServletContext().getRealPath("WEB-INF/upload");
-
-        // FileUtils.copyInputStreamToFile(file.getInputStream(), new File(realPath, file.getOriginalFilename()));
-        return null;
+    @RequestMapping("fileupload")
+    public String index(){
+        return "admin/fileupload_demo";
     }
 
     /**
@@ -35,17 +33,20 @@ public class ImgController {
      */
     @ResponseBody
     @RequestMapping(value = "/fileUpload", method = RequestMethod.POST)
-    public String doFileUpload(@RequestParam String desc, @RequestParam MultipartFile file)
+    public String doFileUpload(@RequestParam MultipartFile file)
             throws IllegalStateException, IOException {
+
+        System.out.println("fileName:"+file.getName());
         if (!file.isEmpty()) {
-            String path = "";
+            String path = "imgs";
             //ProjectUtil.getMavenWebProjectPath() + "runtime";
 
             File myFile = new File(path);
             if (!myFile.exists()) {
                 myFile.mkdirs();
+
             }
-            file.transferTo(new File(path + "/" + file.getOriginalFilename()));
+            file.transferTo(myFile);
         } else {
             return "fail";
         }
