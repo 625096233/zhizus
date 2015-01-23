@@ -61,8 +61,6 @@
 <jsp:include page="commons/header.jsp"></jsp:include>
 <jsp:include page="commons/slider.jsp"></jsp:include>
 
-<h2>==========</h2>
-<c:out value="${user.name}"/>
 <div class="main">
   <div class="container">
     <!-- BEGIN SALE PRODUCT & NEW ARRIVALS -->

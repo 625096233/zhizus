@@ -6,6 +6,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
@@ -26,42 +27,43 @@ public class UserController {
 
 
     @RequestMapping("/loginPage")
-    private String loginPage(){
-        return  "front/login";
+    private String loginPage() {
+        return "front/login";
     }
 
     @RequestMapping("/login")
-    public String login(@RequestParam String email,@RequestParam String password){
+    public String login(@RequestParam String email, @RequestParam String password) {
 
-        System.out.println("email:"+email+"  password:"+password);
+        System.out.println("email:" + email + "  password:" + password);
         return "front/index";
     }
-    @RequestMapping("/register")
-    public String registerPage(@RequestParam String nickname,@RequestParam String email,@RequestParam String password,
-                               @RequestParam String confirmPassword,Model model){
-        if(StringUtils.equals(password, confirmPassword)){
 
-            User user = userService.register(nickname,email,password);
-            model.addAttribute("user",user);
+    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    public String registerPage(@RequestParam String nickname, @RequestParam String email, @RequestParam String password,
+                               @RequestParam String confirmPassword, Model model) {
+        if (StringUtils.equals(password, confirmPassword)) {
+
+            User user = userService.register(nickname, email, password);
+            System.out.println("user:" + user);
+            model.addAttribute("user", user);
 
         }
-
-
-
-        return "front/index";
+        return "forward:/zhizus/index";
     }
 
     @RequestMapping("/registerPage")
-    public String register(){
+    public String register() {
 
         return "front/register";
     }
-    public String bindingPhone(){
-        return null;
-    }
-    public String updatePassword(){
+
+    public String bindingPhone() {
         return null;
     }
 
-    
+    public String updatePassword() {
+        return null;
+    }
+
+
 }

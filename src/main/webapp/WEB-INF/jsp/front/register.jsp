@@ -79,7 +79,7 @@
         <div class="content-form-page">
           <div class="row">
             <div class="col-md-7 col-sm-7">
-              <form class="form-horizontal" role="form" action="/user/register">
+              <form class="form-horizontal" role="form" action="/user/register" method="post">
                 <fieldset>
                   <legend>你的个人信息</legend>
                   <div class="form-group">

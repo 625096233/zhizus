@@ -5,7 +5,7 @@
              xmlns:beans="http://www.springframework.org/schema/beans"
              xmlns:context="http://www.springframework.org/schema/context"
              xsi:schemaLocation="
-        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd 
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
 
@@ -34,7 +34,15 @@
 
     <interceptors>
         <beans:ref bean="localeChangeInterceptor"/>
+        <interceptor>
+            <mapping path="/**"/>
+
+            <beans:bean class="com.dempe.zhizus.front.interceptor.LoginInterceptor"></beans:bean>
+        </interceptor>
+
     </interceptors>
+
+
 
     <!-- 定义无Controller的path<->view直接映射 -->
     <mvc:view-controller path="/" view-name="redirect:/zhizus/index"/>

@@ -15,7 +15,7 @@ public class User {
     @Id
     private String id;
     private String name;
-    private String nickName;
+    private String nickname;
     private String phone;
     private String email;
     private String qq;
@@ -40,12 +40,12 @@ public class User {
         this.name = name;
     }
 
-    public String getNickName() {
-        return nickName;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public String getPhone() {
@@ -102,5 +102,21 @@ public class User {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", nickName='" + nickname + '\'' +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                ", qq='" + qq + '\'' +
+                ", password='" + password + '\'' +
+                ", createAt=" + createAt +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                '}';
     }
 }
