@@ -6,18 +6,18 @@
     <div class="row">
       <div class="bxslider-wrapper">
         <ul class="bxslider" data-slides-phone="1" data-slides-tablet="3" data-slides-desktop="6" data-slide-margin="15">
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/canon.jpg" alt="canon" title="canon"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/esprit.jpg" alt="esprit" title="esprit"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/gap.jpg" alt="gap" title="gap"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/next.jpg" alt="next" title="next"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/puma.jpg" alt="puma" title="puma"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/zara.jpg" alt="zara" title="zara"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/canon.jpg" alt="canon" title="canon"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/esprit.jpg" alt="esprit" title="esprit"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/gap.jpg" alt="gap" title="gap"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/next.jpg" alt="next" title="next"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/puma.jpg" alt="puma" title="puma"></a></li>
-          <li><a href="product-list.html"><img src="${resources}/assets/temp/brands/zara.jpg" alt="zara" title="zara"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/canon.jpg" alt="canon" title="canon"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/esprit.jpg" alt="esprit" title="esprit"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/gap.jpg" alt="gap" title="gap"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/next.jpg" alt="next" title="next"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/puma.jpg" alt="puma" title="puma"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/zara.jpg" alt="zara" title="zara"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/canon.jpg" alt="canon" title="canon"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/esprit.jpg" alt="esprit" title="esprit"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/gap.jpg" alt="gap" title="gap"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/next.jpg" alt="next" title="next"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/puma.jpg" alt="puma" title="puma"></a></li>
+          <li><a href="product-list.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/zara.jpg" alt="zara" title="zara"></a></li>
         </ul>
       </div>
     </div>
@@ -173,11 +173,11 @@
       <!-- BEGIN PAYMENTS -->
       <div class="col-md-6 col-sm-6">
         <ul class="list-unstyled list-inline pull-right margin-bottom-15">
-          <li><img src="${resources}/assets/img/payments/western-union.jpg" alt="We accept Western Union" title="We accept Western Union"></li>
-          <li><img src="${resources}/assets/img/payments/american-express.jpg" alt="We accept American Express" title="We accept American Express"></li>
-          <li><img src="${resources}/assets/img/payments/MasterCard.jpg" alt="We accept MasterCard" title="We accept MasterCard"></li>
-          <li><img src="${resources}/assets/img/payments/PayPal.jpg" alt="We accept PayPal" title="We accept PayPal"></li>
-          <li><img src="${resources}/assets/img/payments/visa.jpg" alt="We accept Visa" title="We accept Visa"></li>
+          <li><img src="http://res.zhizus.com/ecommerce/template/assets/img/payments/western-union.jpg" alt="We accept Western Union" title="We accept Western Union"></li>
+          <li><img src="http://res.zhizus.com/ecommerce/template/assets/img/payments/american-express.jpg" alt="We accept American Express" title="We accept American Express"></li>
+          <li><img src="http://res.zhizus.com/ecommerce/template/assets/img/payments/MasterCard.jpg" alt="We accept MasterCard" title="We accept MasterCard"></li>
+          <li><img src="http://res.zhizus.com/ecommerce/template/assets/img/payments/PayPal.jpg" alt="We accept PayPal" title="We accept PayPal"></li>
+          <li><img src="http://res.zhizus.com/ecommerce/template/assets/img/payments/visa.jpg" alt="We accept Visa" title="We accept Visa"></li>
         </ul>
       </div>
       <!-- END PAYMENTS -->
@@ -192,12 +192,12 @@
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-3">
         <div class="product-main-image">
-          <img src="${resources}/assets/temp/products/model7.jpg" alt="Cool green dress with red bell" class="img-responsive">
+          <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model7.jpg" alt="Cool green dress with red bell" class="img-responsive">
         </div>
         <div class="product-other-images">
-          <a href="#" class="active"><img alt="Berry Lace Dress" src="${resources}/assets/temp/products/model3.jpg"></a>
-          <a href="#"><img alt="Berry Lace Dress" src="${resources}/assets/temp/products/model4.jpg"></a>
-          <a href="#"><img alt="Berry Lace Dress" src="${resources}/assets/temp/products/model5.jpg"></a>
+          <a href="#" class="active"><img alt="Berry Lace Dress" src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model3.jpg"></a>
+          <a href="#"><img alt="Berry Lace Dress" src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model4.jpg"></a>
+          <a href="#"><img alt="Berry Lace Dress" src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model5.jpg"></a>
         </div>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-9">

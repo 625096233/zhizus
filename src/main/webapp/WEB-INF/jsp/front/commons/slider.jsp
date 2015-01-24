@@ -6,7 +6,7 @@
   <div id="layerslider" style="width: 100%; height: 494px; margin: 0 auto;">
     <!--LayerSlider layer-->
     <div class="ls-layer ls-layer1" style="slidedirection: right; transition2d: 24,25,27,28; ">
-      <img src="${resources}/assets/temp/sliders/slide1/bg.jpg" class="ls-bg" alt="Slide background">
+      <img src="http://res.zhizus.com/ecommerce/template/assets/temp/sliders/slide1/bg.jpg" class="ls-bg" alt="Slide background">
       <div class="ls-s-1 title" style=" top: 96px; left: 35%; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; rotatein : 90; rotateout : -90; scalein : .5; scaleout : .5; showuntil : 4000; white-space: nowrap;">
         Tones of <strong>shop UI features</strong> designed
       </div>
@@ -17,7 +17,7 @@
 
     <!--LayerSlider layer-->
     <div class="ls-layer ls-layer2" style="slidedirection: right; transition2d: 110,111,112,113; ">
-      <img src="${resources}/assets/temp/sliders/slide2/bg.jpg" class="ls-bg" alt="Slide background">
+      <img src="http://res.zhizus.com/ecommerce/template/assets/temp/sliders/slide2/bg.jpg" class="ls-bg" alt="Slide background">
       <div class="ls-s-1 ls-title title" style=" top: 40%; left: 21%; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; rotatein : 90; rotateout : -90; scalein : .5; scaleout : .5; showuntil : 4000; white-space: nowrap;">
         <strong class="title">Unlimted</strong>
         Layout Options
@@ -36,7 +36,7 @@
 
     <!--LayerSlider layer-->
     <div class="ls-layer ls-layer3" style="slidedirection: right; transition2d: 92,93,105; ">
-      <img src="${resources}/assets/temp/sliders/slide3/bg.jpg" class="ls-bg" alt="Slide background">
+      <img src="http://res.zhizus.com/ecommerce/template/assets/temp/sliders/slide3/bg.jpg" class="ls-bg" alt="Slide background">
 
       <div class="ls-s-1 ls-title" style=" top: 83px; left: 33%; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; rotatein : 90; rotateout : -90; scalein : .5; scaleout : .5; showuntil : 4000; white-space: nowrap;">
         Full Admin & Frontend
@@ -57,7 +57,7 @@
 
     <!--LayerSlider layer-->
     <div class="ls-layer ls-layer5" style="slidedirection: right; transition2d: 110,111,112,113; ">
-      <img src="${resources}/assets/temp/sliders/slide5/bg.jpg" class="ls-bg" alt="Slide background">
+      <img src="http://res.zhizus.com/ecommerce/template/assets/temp/sliders/slide5/bg.jpg" class="ls-bg" alt="Slide background">
 
       <div class="ls-s-1 title" style=" top: 35%; left: 60%; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; rotatein : 90; rotateout : -90; scalein : .5; scaleout : .5; showuntil : 4000; white-space: nowrap;">
         The most<br>

@@ -54,7 +54,7 @@
         <span class="icon-bar"></span>
       </button>
       <!-- END RESPONSIVE MENU TOGGLER -->
-      <a href="index.html" class="navbar-brand"><img src="${resources}/assets/img/logo_red.png" alt="Metronic Shop UI"></a><!-- LOGO -->
+      <a href="index.html" class="navbar-brand"><img src="http://res.zhizus.com/ecommerce/template/assets/img/logo_red.png" alt="Metronic Shop UI"></a><!-- LOGO -->
     </div>
     <!-- BEGIN CART -->
     <div class="cart-block">
@@ -68,56 +68,56 @@
         <div class="cart-content">
           <ul class="scroller" style="height: 250px;">
             <li>
-              <a href="item.html"><img src="${resources}/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
+              <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
               <span class="cart-content-count">x 1</span>
               <strong><a href="item.html">Rolex Classic Watch</a></strong>
               <em>$1230</em>
               <a href="javascript:void(0);" class="del-goods"><i class="fa fa-times"></i></a>
             </li>
             <li>
-              <a href="item.html"><img src="${resources}/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
+              <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
               <span class="cart-content-count">x 1</span>
               <strong><a href="item.html">Rolex Classic Watch</a></strong>
               <em>$1230</em>
               <a href="javascript:void(0);" class="del-goods"><i class="fa fa-times"></i></a>
             </li>
             <li>
-              <a href="item.html"><img src="${resources}/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
+              <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
               <span class="cart-content-count">x 1</span>
               <strong><a href="item.html">Rolex Classic Watch</a></strong>
               <em>$1230</em>
               <a href="javascript:void(0);" class="del-goods"><i class="fa fa-times"></i></a>
             </li>
             <li>
-              <a href="item.html"><img src="${resources}/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
+              <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
               <span class="cart-content-count">x 1</span>
               <strong><a href="item.html">Rolex Classic Watch</a></strong>
               <em>$1230</em>
               <a href="javascript:void(0);" class="del-goods"><i class="fa fa-times"></i></a>
             </li>
             <li>
-              <a href="item.html"><img src="${resources}/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
+              <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
               <span class="cart-content-count">x 1</span>
               <strong><a href="item.html">Rolex Classic Watch</a></strong>
               <em>$1230</em>
               <a href="javascript:void(0);" class="del-goods"><i class="fa fa-times"></i></a>
             </li>
             <li>
-              <a href="item.html"><img src="${resources}/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
+              <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
               <span class="cart-content-count">x 1</span>
               <strong><a href="item.html">Rolex Classic Watch</a></strong>
               <em>$1230</em>
               <a href="javascript:void(0);" class="del-goods"><i class="fa fa-times"></i></a>
             </li>
             <li>
-              <a href="item.html"><img src="${resources}/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
+              <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
               <span class="cart-content-count">x 1</span>
               <strong><a href="item.html">Rolex Classic Watch</a></strong>
               <em>$1230</em>
               <a href="javascript:void(0);" class="del-goods"><i class="fa fa-times"></i></a>
             </li>
             <li>
-              <a href="item.html"><img src="${resources}/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
+              <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/cart-img.jpg" alt="Rolex Classic Watch" width="37" height="34"></a>
               <span class="cart-content-count">x 1</span>
               <strong><a href="item.html">Rolex Classic Watch</a></strong>
               <em>$1230</em>
@@ -194,11 +194,11 @@
                 <!-- BEGIN DROPDOWN MENU - BRANDS -->
                 <div class="nav-brands">
                   <ul>
-                    <li><a href="product-list.html"><img title="esprit" alt="esprit" src="${resources}/assets/temp/brands/esprit.jpg"></a></li>
-                    <li><a href="product-list.html"><img title="gap" alt="gap" src="${resources}/assets/temp/brands/gap.jpg"></a></li>
-                    <li><a href="product-list.html"><img title="next" alt="next" src="${resources}/assets/temp/brands/next.jpg"></a></li>
-                    <li><a href="product-list.html"><img title="puma" alt="puma" src="${resources}/assets/temp/brands/puma.jpg"></a></li>
-                    <li><a href="product-list.html"><img title="zara" alt="zara" src="${resources}/assets/temp/brands/zara.jpg"></a></li>
+                    <li><a href="product-list.html"><img title="esprit" alt="esprit" src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/esprit.jpg"></a></li>
+                    <li><a href="product-list.html"><img title="gap" alt="gap" src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/gap.jpg"></a></li>
+                    <li><a href="product-list.html"><img title="next" alt="next" src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/next.jpg"></a></li>
+                    <li><a href="product-list.html"><img title="puma" alt="puma" src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/puma.jpg"></a></li>
+                    <li><a href="product-list.html"><img title="zara" alt="zara" src="http://res.zhizus.com/ecommerce/template/assets/temp/brands/zara.jpg"></a></li>
                   </ul>
                 </div>
                 <!-- END DROPDOWN MENU - BRANDS -->
@@ -262,7 +262,7 @@
               <div class="nav-content">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <a href="item.html"><img src="${resources}/assets/temp/products/model4.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
+                    <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model4.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
                   </div>
                   <h3><a href="item.html">Berry Lace Dress</a></h3>
                   <div class="pi-price">$29.00</div>
@@ -270,7 +270,7 @@
                 </div>
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <a href="item.html"><img src="${resources}/assets/temp/products/model3.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
+                    <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model3.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
                   </div>
                   <h3><a href="item.html">Berry Lace Dress</a></h3>
                   <div class="pi-price">$29.00</div>
@@ -278,7 +278,7 @@
                 </div>
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <a href="item.html"><img src="${resources}/assets/temp/products/model7.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
+                    <a href="item.html"><img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model7.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
                   </div>
                   <h3><a href="item.html">Berry Lace Dress</a></h3>
                   <div class="pi-price">$29.00</div>

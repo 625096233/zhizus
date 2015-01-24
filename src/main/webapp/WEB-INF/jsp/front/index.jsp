@@ -36,21 +36,21 @@
   <!-- Fonts END -->
 
   <!-- Global styles START -->
-  <link href="${resources}/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="${resources}/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="http://res.zhizus.com/ecommerce/template/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://res.zhizus.com/ecommerce/template/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
   <!-- Global styles END -->
 
   <!-- Page level plugin styles START -->
-  <link href="${resources}/assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
-  <link href="${resources}/assets/plugins/bxslider/jquery.bxslider.css" rel="stylesheet">
-  <link rel="stylesheet" href="${resources}/assets/plugins/layerslider/css/layerslider.css" type="text/css">
+  <link href="http://res.zhizus.com/ecommerce/template/assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+  <link href="http://res.zhizus.com/ecommerce/template/assets/plugins/bxslider/jquery.bxslider.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://res.zhizus.com/ecommerce/template/assets/plugins/layerslider/css/layerslider.css" type="text/css">
   <!-- Page level plugin styles END -->
 
   <!-- Theme styles START -->
-  <link href="${resources}/assets/css/style-metronic.css" rel="stylesheet" type="text/css">
-  <link href="${resources}/assets/css/style.css" rel="stylesheet" type="text/css">
-  <link href="${resources}/assets/css/style-responsive.css" rel="stylesheet" type="text/css">
-  <link href="${resources}/assets/css/custom.css" rel="stylesheet" type="text/css">
+  <link href="http://res.zhizus.com/ecommerce/template/assets/css/style-metronic.css" rel="stylesheet" type="text/css">
+  <link href="http://res.zhizus.com/ecommerce/template/assets/css/style.css" rel="stylesheet" type="text/css">
+  <link href="http://res.zhizus.com/ecommerce/template/assets/css/style-responsive.css" rel="stylesheet" type="text/css">
+  <link href="http://res.zhizus.com/ecommerce/template/assets/css/custom.css" rel="stylesheet" type="text/css">
   <!-- Theme styles END -->
 </head>
 <!-- Head END -->
@@ -73,9 +73,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/model1.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model1.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/model1.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/model1.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -88,9 +88,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/model2.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model2.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/model2.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/model2.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -102,9 +102,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/model6.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model6.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/model6.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/model6.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -116,9 +116,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/model4.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model4.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/model4.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/model4.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -131,9 +131,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/model5.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model5.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/model5.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/model5.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -145,9 +145,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/model3.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model3.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/model3.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/model3.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -159,9 +159,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/model7.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/model7.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/model7.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/model7.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -233,9 +233,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k1.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k1.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k1.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k1.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -248,9 +248,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k2.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k2.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k2.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k2.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -262,9 +262,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k3.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k3.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k3.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k3.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -276,9 +276,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k4.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k4.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k4.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k4.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -291,9 +291,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k1.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k1.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k1.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k1.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -305,9 +305,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k2.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k2.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k2.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k2.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -333,9 +333,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k4.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k4.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k4.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k4.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -347,9 +347,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k2.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k2.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k2.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k2.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -361,9 +361,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k3.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k3.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k3.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k3.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -375,9 +375,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k1.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k1.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k1.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k1.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -389,9 +389,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k4.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k4.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k4.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k4.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -403,9 +403,9 @@
             <li>
               <div class="product-item">
                 <div class="pi-img-wrapper">
-                  <img src="${resources}/assets/temp/products/k3.jpg" class="img-responsive" alt="Berry Lace Dress">
+                  <img src="http://res.zhizus.com/ecommerce/template/assets/temp/products/k3.jpg" class="img-responsive" alt="Berry Lace Dress">
                   <div>
-                    <a href="${resources}/assets/temp/products/k3.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                    <a href="http://res.zhizus.com/ecommerce/template/assets/temp/products/k3.jpg" class="btn btn-default fancybox-button">Zoom</a>
                     <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
                   </div>
                 </div>
@@ -430,13 +430,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="item active">
-                <img src="${resources}/assets/temp/index-sliders/slide1.jpg" class="img-responsive" alt="Berry Lace Dress">
+                <img src="http://res.zhizus.com/ecommerce/template/assets/temp/index-sliders/slide1.jpg" class="img-responsive" alt="Berry Lace Dress">
               </div>
               <div class="item">
-                <img src="${resources}/assets/temp/index-sliders/slide2.jpg" class="img-responsive" alt="Berry Lace Dress">
+                <img src="http://res.zhizus.com/ecommerce/template/assets/temp/index-sliders/slide2.jpg" class="img-responsive" alt="Berry Lace Dress">
               </div>
               <div class="item">
-                <img src="${resources}/assets/temp/index-sliders/slide3.jpg" class="img-responsive" alt="Berry Lace Dress">
+                <img src="http://res.zhizus.com/ecommerce/template/assets/temp/index-sliders/slide3.jpg" class="img-responsive" alt="Berry Lace Dress">
               </div>
             </div>
           </div>
@@ -452,30 +452,30 @@
 <!-- Load javascripts at bottom, this will reduce page load time -->
 <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
 <!--[if lt IE 9]>
-<script src="${resources}/assets/plugins/respond.min.js"></script>
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/respond.min.js"></script>
 <![endif]-->
-<script src="${resources}/assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
-<script src="${resources}/assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
-<script src="${resources}/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="${resources}/assets/plugins/back-to-top.js"></script>
-<script type="text/javascript" src="${resources}/assets/plugins/jQuery-slimScroll/jquery.slimscroll.min.js"></script>
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://res.zhizus.com/ecommerce/template/assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="http://res.zhizus.com/ecommerce/template/assets/plugins/jQuery-slimScroll/jquery.slimscroll.min.js"></script>
 <!-- END CORE PLUGINS -->
 
 <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
-<script type="text/javascript" src="${resources}/assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script><!-- pop up -->
-<script type="text/javascript" src="${resources}/assets/plugins/bxslider/jquery.bxslider.min.js"></script><!-- slider for products -->
-<script type="text/javascript" src='${resources}/assets/plugins/zoom/jquery.zoom.min.js'></script><!-- product zoom -->
-<script src="${resources}/assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript"></script><!-- Quantity -->
+<script type="text/javascript" src="http://res.zhizus.com/ecommerce/template/assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script><!-- pop up -->
+<script type="text/javascript" src="http://res.zhizus.com/ecommerce/template/assets/plugins/bxslider/jquery.bxslider.min.js"></script><!-- slider for products -->
+<script type="text/javascript" src='http://res.zhizus.com/ecommerce/template/assets/plugins/zoom/jquery.zoom.min.js'></script><!-- product zoom -->
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript"></script><!-- Quantity -->
 
 <!-- BEGIN LayerSlider -->
-<script src="${resources}/assets/plugins/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
-<script src="${resources}/assets/plugins/layerslider/jQuery/jquery-transit-modified.js" type="text/javascript"></script>
-<script src="${resources}/assets/plugins/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="${resources}/assets/plugins/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/layerslider/jQuery/jquery-transit-modified.js" type="text/javascript"></script>
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+<script src="http://res.zhizus.com/ecommerce/template/assets/plugins/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
 <!-- END LayerSlider -->
 
-<script type="text/javascript" src="${resources}/assets/scripts/app.js"></script>
-<script type="text/javascript" src="${resources}/assets/scripts/index.js"></script>
+<script type="text/javascript" src="http://res.zhizus.com/ecommerce/template/assets/scripts/app.js"></script>
+<script type="text/javascript" src="http://res.zhizus.com/ecommerce/template/assets/scripts/index.js"></script>
 <script type="text/javascript">
   jQuery(document).ready(function() {
     App.init();
