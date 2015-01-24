@@ -63,7 +63,7 @@
     <div class="row">
       <!-- BEGIN BOTTOM ABOUT BLOCK -->
       <div class="col-md-3 col-sm-6 pre-footer-col">
-        <h2>About us</h2>
+        <h2>关于我们</h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore magna aliquarm erat sit volutpat. Nostrud exerci tation ullamcorper suscipit lobortis nisl aliquip  commodo consequat. </p>
         <p>Duis autem vel eum iriure dolor vulputate velit esse molestie at dolore.</p>
       </div>
@@ -113,7 +113,7 @@
       <!-- END TWITTER BLOCK -->
       <!-- BEGIN BOTTOM CONTACTS -->
       <div class="col-md-3 col-sm-6 pre-footer-col">
-        <h2>Our Contacts</h2>
+        <h2>联系我们</h2>
         <address class="margin-bottom-40">
           35, Lorem Lis Street, Park Ave<br>
           California, US<br>
