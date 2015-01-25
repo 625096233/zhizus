@@ -2,6 +2,8 @@ package com.dempe.zhizus.model;
 
 import org.mongodb.morphia.annotations.Id;
 
+import java.util.Date;
+
 /**
  * Created with IntelliJ IDEA.
  * User: zhengdaxia
@@ -18,7 +20,20 @@ public class Category {
 
     private String desc;
 
-    private int type;
+    /**
+     * 父节点 第一级别类pid＝0
+     */
+    private String pid;
+
+    private Date updateTime;
+
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
+    }
 
     public String getCid() {
         return cid;
@@ -44,11 +59,12 @@ public class Category {
         this.desc = desc;
     }
 
-    public int getType() {
-        return type;
+
+    public String getPid() {
+        return pid;
     }
 
-    public void setType(int type) {
-        this.type = type;
+    public void setPid(String pid) {
+        this.pid = pid;
     }
 }

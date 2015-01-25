@@ -32,15 +32,15 @@
         <beans:property name="paramName" value="locale"/>
     </beans:bean>
 
-    <interceptors>
-        <beans:ref bean="localeChangeInterceptor"/>
-        <interceptor>
-            <mapping path="/**"/>
+    <!--<interceptors>-->
+        <!--<beans:ref bean="localeChangeInterceptor"/>-->
+        <!--<interceptor>-->
+            <!--<mapping path="/**"/>-->
 
-            <beans:bean class="com.dempe.zhizus.front.interceptor.LoginInterceptor"></beans:bean>
-        </interceptor>
+            <!--<beans:bean class="com.dempe.zhizus.front.interceptor.LoginInterceptor"></beans:bean>-->
+        <!--</interceptor>-->
 
-    </interceptors>
+    <!--</interceptors>-->
 
 
 

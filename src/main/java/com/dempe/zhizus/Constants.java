@@ -7,5 +7,6 @@ package com.dempe.zhizus;
  * Time: 14:31
  * To change this template use File | Settings | File Templates.
  */
-public class Constants {
+public interface Constants {
+    String DEFAULT_PID = "0";
 }
