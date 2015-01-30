@@ -4,6 +4,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,23 +16,20 @@ import java.io.FileOutputStream;
 public class FileUtils {
 
 
-
-    public static void saveUploadFile(String fileName,String filePath, MultipartFile filedata) {
-
-
+    public static void saveUploadFile(String fileName, String filePath, MultipartFile filedata) throws IOException {
         /* 构建文件目录 */
         File fileDir = new File(filePath);
         if (!fileDir.exists()) {
             fileDir.mkdirs();
         }
-
+        FileOutputStream out = null;
         try {
-            FileOutputStream out = new FileOutputStream(filePath + File.separator+ fileName);
+            out = new FileOutputStream(filePath + File.separator + fileName);
             out.write(filedata.getBytes());
+
+        } finally {
             out.flush();
             out.close();
-        } catch (Exception e) {
-            e.printStackTrace();
         }
 
     }

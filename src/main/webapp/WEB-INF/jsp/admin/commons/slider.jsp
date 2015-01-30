@@ -114,159 +114,20 @@
         <a href="javascript:;">
           <i class="fa fa-bookmark-o"></i>
 						<span class="title">
-							UI Features
+							商品管理
 						</span>
 						<span class="arrow ">
 						</span>
         </a>
         <ul class="sub-menu">
           <li>
-            <a href="ui_general.html">
-              General
+            <a href="/admin/goods/addPage">
+              添加商品
             </a>
           </li>
           <li>
             <a href="ui_buttons.html">
-              Buttons & Icons
-            </a>
-          </li>
-          <li>
-            <a href="ui_typography.html">
-              Typography
-            </a>
-          </li>
-          <li>
-            <a href="ui_tabs_accordions_navs.html">
-              Tabs, Accordions & Navs
-            </a>
-          </li>
-          <li>
-            <a href="ui_tree.html">
-								<span class="badge badge-roundless badge-important">
-									new
-								</span>
-              Tree View
-            </a>
-          </li>
-          <li>
-            <a href="ui_page_progress_style_1.html">
-								<span class="badge badge-roundless badge-warning">
-									new
-								</span>
-              Page Progress Bar
-            </a>
-          </li>
-          <li>
-            <a href="ui_blockui.html">
-              Block UI
-            </a>
-          </li>
-          <li>
-            <a href="ui_notific8.html">
-              Notific8 Notifications
-            </a>
-          </li>
-          <li>
-            <a href="ui_toastr.html">
-              Toastr Notifications
-            </a>
-          </li>
-          <li>
-            <a href="ui_alert_dialog_api.html">
-								<span class="badge badge-roundless badge-important">
-									new
-								</span>
-              Alerts & Dialogs API
-            </a>
-          </li>
-          <li>
-            <a href="ui_session_timeout.html">
-              Session Timeout
-            </a>
-          </li>
-          <li>
-            <a href="ui_idle_timeout.html">
-              User Idle Timeout
-            </a>
-          </li>
-          <li>
-            <a href="ui_modals.html">
-              Modals
-            </a>
-          </li>
-          <li>
-            <a href="ui_extended_modals.html">
-              Extended Modals
-            </a>
-          </li>
-          <li>
-            <a href="ui_tiles.html">
-              Tiles
-            </a>
-          </li>
-          <li>
-            <a href="ui_datepaginator.html">
-								<span class="badge badge-roundless badge-success">
-									new
-								</span>
-              Date Paginator
-            </a>
-          </li>
-          <li>
-            <a href="ui_nestable.html">
-              Nestable List
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="javascript:;">
-          <i class="fa fa-puzzle-piece"></i>
-						<span class="title">
-							UI Components
-						</span>
-						<span class="arrow ">
-						</span>
-        </a>
-        <ul class="sub-menu">
-          <li>
-            <a href="components_pickers.html">
-              Pickers
-            </a>
-          </li>
-          <li>
-            <a href="components_dropdowns.html">
-              Custom Dropdowns
-            </a>
-          </li>
-          <li>
-            <a href="components_form_tools.html">
-              Form Tools
-            </a>
-          </li>
-          <li>
-            <a href="components_editors.html">
-              Markdown & WYSIWYG Editors
-            </a>
-          </li>
-          <li>
-            <a href="components_ion_sliders.html">
-              Ion Range Sliders
-            </a>
-          </li>
-          <li>
-            <a href="components_noui_sliders.html">
-              NoUI Range Sliders
-            </a>
-          </li>
-          <li>
-            <a href="components_jqueryui_sliders.html">
-              jQuery UI Sliders
-            </a>
-          </li>
-          <li>
-            <a href="components_knob_dials.html">
-              Knob Circle Dials
+              商品列表
             </a>
           </li>
         </ul>

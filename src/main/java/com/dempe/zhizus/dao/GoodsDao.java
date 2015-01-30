@@ -5,6 +5,7 @@ import com.dempe.zhizus.model.User;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.dao.BasicDAO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.io.Serializable;
 
@@ -15,6 +16,7 @@ import java.io.Serializable;
  * Time: 下午9:48
  * To change this template use File | Settings | File Templates.
  */
+@Repository
 public class GoodsDao extends BasicDAO<Goods, Serializable> {
 
     @Autowired

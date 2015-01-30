@@ -3,8 +3,8 @@ package com.dempe.zhizus.admin;
 import com.dempe.zhizus.Constants;
 import com.dempe.zhizus.dao.FocusDao;
 import com.dempe.zhizus.utils.FileUtils;
+import com.dempe.zhizus.utils.JSONResult;
 import com.dempe.zhizus.utils.MD5;
-import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -34,41 +34,31 @@ public class FocusController {
     private FocusDao focusDao;
 
     @RequestMapping("/list")
-    public String list(Model model){
-        model.addAttribute("focus", focusDao.find());
+    public String list(Model model) {
+        model.addAttribute("focusList", focusDao.find().asList());
         return "admin/focus";
     }
 
-    @RequestMapping(value = "/add",method = RequestMethod.POST)
-    @ResponseBody
-    public String add(@RequestParam String name,@RequestParam MultipartFile file) throws IOException {
-        if(StringUtils.isEmpty(name)){
-
-        }
-
-        if(file!=null &&!file.isEmpty()){
-
-            File myFile = new File(Constants.IMG_DIR);
-            if (!myFile.exists()) {
-                myFile.mkdirs();
-
+    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    public String add(@RequestParam(required = false, defaultValue = "focusPhoto") String name, @RequestParam MultipartFile photo) throws IOException {
+        if (photo != null && !photo.isEmpty()) {
+            String id = MD5.hash(photo.getBytes());
+            if (focusDao.findById(id) == null) {
+                String fileName = photo.getOriginalFilename();
+                String extensionName = fileName.substring(fileName.lastIndexOf(".") + 1);
+                String imgName = id + "." + extensionName;
+                FileUtils.saveUploadFile(imgName, Constants.IMG_DIR + FOCUS_IMG_DIR + File.separator, photo);
+                focusDao.add(id, name, FOCUS_IMG_DIR + File.separator + imgName);
             }
-            String type = file.getContentType().toString();
-            System.out.println("====>"+type);
-
-            String fileName = file.getOriginalFilename();
-            // 获取图片的扩展名
-            String extensionName = fileName.substring(fileName.lastIndexOf(".") + 1);
-            // 新的图片文件名 = 获取时间戳+"."图片扩展名
-            String newFileName = String.valueOf(System.currentTimeMillis())
-                    + "." + extensionName;
-            String imgName = MD5.hash(file.getBytes())+"."+extensionName;
-            FileUtils.saveUploadFile(imgName,Constants.IMG_DIR+FOCUS_IMG_DIR+File.separator,file);
-
-            focusDao.add(name,FOCUS_IMG_DIR+File.separator+imgName);
-
         }
-        return "/admin/focus";
+        return "redirect:/admin/focus/list";
+    }
+
+    @RequestMapping(value = "/delete",method = RequestMethod.POST)
+    @ResponseBody
+    public String delete(@RequestParam String id) {
+        focusDao.deleteById(id);
+        return JSONResult.getResult().toJSONString();
     }
 
 

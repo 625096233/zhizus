@@ -2,8 +2,6 @@ package com.dempe.zhizus.model;
 
 import org.mongodb.morphia.annotations.Id;
 
-import java.util.List;
-
 /**
  * Created with IntelliJ IDEA.
  * User: Dempe
@@ -14,18 +12,26 @@ import java.util.List;
 public class Goods {
     @Id
     private String id;
+    //一级类别
+    private String pid;
+    //二级类别
     private String cid;
-
-    private List<String> imgUrls;
-    private String size;
-    private String color;
-    private boolean inStore;
     // 原价
-    private double oPrice;
-    // 现价
-    private double pPrice;
+    private double price0;
+    // 批发价
+    private double price3;
+    // 零售价
+    private double price;
 
     private String desc;
+
+    public String getPid() {
+        return pid;
+    }
+
+    public void setPid(String pid) {
+        this.pid = pid;
+    }
 
     public String getId() {
         return id;
@@ -43,52 +49,28 @@ public class Goods {
         this.cid = cid;
     }
 
-    public List<String> getImgUrls() {
-        return imgUrls;
+    public double getPrice0() {
+        return price0;
     }
 
-    public void setImgUrls(List<String> imgUrls) {
-        this.imgUrls = imgUrls;
+    public void setPrice0(double price0) {
+        this.price0 = price0;
     }
 
-    public String getSize() {
-        return size;
+    public double getPrice3() {
+        return price3;
     }
 
-    public void setSize(String size) {
-        this.size = size;
+    public void setPrice3(double price3) {
+        this.price3 = price3;
     }
 
-    public String getColor() {
-        return color;
+    public double getPrice() {
+        return price;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public boolean isInStore() {
-        return inStore;
-    }
-
-    public void setInStore(boolean inStore) {
-        this.inStore = inStore;
-    }
-
-    public double getoPrice() {
-        return oPrice;
-    }
-
-    public void setoPrice(double oPrice) {
-        this.oPrice = oPrice;
-    }
-
-    public double getpPrice() {
-        return pPrice;
-    }
-
-    public void setpPrice(double pPrice) {
-        this.pPrice = pPrice;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public String getDesc() {

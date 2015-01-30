@@ -170,25 +170,17 @@
                         </div>
                         <form action="/admin/focus/add" method="post" enctype="multipart/form-data">
                             <div class="modal-body">
-
-
-                                <div id="parent-category-div" class="form-group" style="display:none">
+                                <div  class="form-group">
                                     <label class="col-md-3 control-label">图片名称:</label>
-
                                     <div class="col-md-7">
-                                        <input type="text" id="name" name="name" type="text" class="form-control"
-                                               value=""/>
+                                        <input type="text" id="name" name="name" type="text" class="form-control"value=""/>
                                     </div>
                                 </div>
                                 <div class="form-group">
-
                                     <div class="col-md-10">
                                         <input id="photo" name="photo" type="file" accept="image/gif, image/jpeg"/>
                                     </div>
                                 </div>
-                                <br>
-
-                                <br>
                                 <br>
 
                             </div>
@@ -240,70 +232,24 @@
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script type="text/javascript" src="http://res.zhizus.com/admin/template/assets/scripts/core/app.js"></script>
 <script src="http://res.zhizus.com/admin/template/assets/scripts/custom/table-managed.js"></script>
-<script type="text/javascript"
-        src="http://res.zhizus.com/admin/template/assets/scripts/custom/table-editable.js"></script>
+
 <script>
     jQuery(document).ready(function () {
         App.init();
-        TableManaged.init();
-
-        /**
-         * 新增商品类别
-         */
-        $("#foucs-btn").click(function () {
-            var name = $("#name").val();
-            var desc = $("#desc").val();
-            var pid = $("#pid").val();
-            if (name == null) {
-                alert("name can not be null!");
-            }
-            $.post("/admin/category/add",
-                    {
-                        name: name,
-                        desc: desc,
-                        pid: pid
-                    },
-
-                    function (data, status) {
-                        location.reload();
-                    });
-
-        });
+        //TableManaged.init();
 
         $('#sample_1 a.delete').live('click', function (e) {
             e.preventDefault();
             if (confirm("Are you sure to delete this row ?") == false) {
                 return;
             }
-            var cid = $(this).attr("data-id");
-            $.post("/admin/category/delete",
-                    {cid: cid},
+            var id = $(this).attr("data-id");
+            $.post("/admin/focus/delete",
+                    {id: id},
                     function (data, status) {
                         location.reload();
                     });
         });
-
-        $('#sample_1 a.edit').live('click', function (e) {
-            var cid = $(this).attr("data-id");
-            $.post("/admin/category/getCategoryByCid",
-                    {cid: cid},
-                    function (data, status) {
-                        $("#name").val(data.result.name);
-                        $("#desc").val(data.result.desc);
-                    });
-
-        });
-
-        $('#sample_editable_1_new').click(function () {
-            var pid = '${param.pid}';
-            $.post("/admin/category/getCategoryByCid",
-                    {cid: pid},
-                    function (data, status) {
-                        $("#parent-category-div").css("display", "block");
-                        $("#parent-category-label").val(data.result.name);
-                    });
-        })
-
 
     });
 </script>

@@ -25,10 +25,15 @@ public class FocusDao extends BasicDAO<Focus, Serializable> {
         ensureIndexes();// 自动创建索引
     }
 
-    public void add(String name,String imgID){
+    public void add(String id,String name,String imgID){
         Focus focus = new Focus();
+        focus.setId(id);
         focus.setName(name);
         focus.setImgUrl(Constants.IMG_HOST+imgID);
         save(focus);
+    }
+
+    public Focus findById(String id){
+        return findOne("_id",id);
     }
 }

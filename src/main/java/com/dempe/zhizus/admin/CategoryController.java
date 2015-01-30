@@ -1,5 +1,6 @@
 package com.dempe.zhizus.admin;
 
+import com.alibaba.fastjson.JSONArray;
 import com.dempe.zhizus.Constants;
 import com.dempe.zhizus.dao.CategoryDao;
 import com.dempe.zhizus.model.Category;
@@ -14,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
@@ -32,44 +32,49 @@ public class CategoryController {
     private CategoryDao categoryDao;
 
     @RequestMapping(value = "/list")
-    public String list(@RequestParam(required = false,defaultValue = Constants.DEFAULT_PID) String pid, Model model){
-        model.addAttribute("categorys",categoryDao.findByPid(pid));
+    public String list(@RequestParam(required = false, defaultValue = Constants.DEFAULT_PID) String pid, Model model) {
+        model.addAttribute("categorys", categoryDao.findByPid(pid));
         return "admin/index";
     }
-    @RequestMapping(value = "/add",method = RequestMethod.POST)
+
+    @RequestMapping(value = "/getCategoryNamesById", produces = {"application/json;charset=UTF-8"})
     @ResponseBody
-    public String add(@RequestParam String name, @RequestParam String desc,@RequestParam(required = false,defaultValue = Constants.DEFAULT_PID) String pid){
-        if(categoryDao.getCategoryByName(name)!=null){
+    public String getCategoryNamesById(@RequestParam String pid) {
+        List<Category> list = categoryDao.findByPid(pid);
+        return JSONArray.toJSONString(list);
+
+    }
+
+
+    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    @ResponseBody
+    public String add(@RequestParam String name, @RequestParam String desc, @RequestParam(required = false, defaultValue = Constants.DEFAULT_PID) String pid) {
+        if (categoryDao.getCategoryByName(name) != null) {
             return JSONResult.getResult().putErrorStatus(400).toJSONString();
         }
-        categoryDao.add(name,desc,pid);
+        categoryDao.add(name, desc, pid);
         return JSONResult.getResult().toJSONString();
     }
 
-    @RequestMapping(value = "/delete",method = RequestMethod.POST)
+    @RequestMapping(value = "/delete", method = RequestMethod.POST)
     @ResponseBody
-    public String delete(@RequestParam String cid){
-        if(StringUtils.isEmpty(cid)){
+    public String delete(@RequestParam String cid) {
+        if (StringUtils.isEmpty(cid)) {
             return JSONResult.getResult().putErrorStatus(400).toJSONString();
         }
-       categoryDao.deleteById(new ObjectId(cid));
+        categoryDao.deleteById(new ObjectId(cid));
         return JSONResult.getResult().toJSONString();
     }
 
-    @RequestMapping(value = "/getCategoryByCid",produces = {"application/json;charset=UTF-8"})
+    @RequestMapping(value = "/getCategoryByCid", produces = {"application/json;charset=UTF-8"})
     @ResponseBody
-    public String getCategoryByCid(@RequestParam String cid){
-        if(StringUtils.isEmpty(cid)){
+    public String getCategoryByCid(@RequestParam String cid) {
+        if (StringUtils.isEmpty(cid)) {
             return JSONResult.getResult().putErrorStatus(400).toJSONString();
         }
         Category category = categoryDao.findOne("cid", new ObjectId(cid));
         return JSONResult.getResult().putResult(category).toJSONString();
     }
-
-
-
-
-
 
 
 }
