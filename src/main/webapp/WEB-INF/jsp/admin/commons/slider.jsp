@@ -96,90 +96,18 @@
         <a href="javascript:;">
           <i class="fa fa-cogs"></i>
 						<span class="title">
-							Page Layouts
+							图片管理
 						</span>
 						<span class="arrow ">
 						</span>
         </a>
         <ul class="sub-menu">
           <li>
-            <a href="index_horizontal_menu.html">
-              Dashboard & Mega Menu
+            <a href="/admin/focus/list">
+              轮播图片
             </a>
           </li>
-          <li>
-            <a href="layout_horizontal_sidebar_menu.html">
-              Horizontal & Sidebar Menu
-            </a>
-          </li>
-          <li>
-            <a href="layout_horizontal_menu1.html">
-              Horizontal Mega Menu 1
-            </a>
-          </li>
-          <li>
-            <a href="layout_horizontal_menu2.html">
-              Horizontal Mega Menu 2
-            </a>
-          </li>
-          <li>
-            <a href="layout_search_on_header.html">
-              Searchbar On Header
-            </a>
-          </li>
-          <li>
-            <a href="layout_sidebar_toggler_on_header.html">
-              Sidebar Toggler On Header
-            </a>
-          </li>
-          <li>
-            <a href="layout_sidebar_reversed.html">
-								<span class="badge badge-roundless badge-success">
-									new
-								</span>
-              Right Sidebar Page
-            </a>
-          </li>
-          <li>
-            <a href="layout_sidebar_fixed.html">
-              Sidebar Fixed Page
-            </a>
-          </li>
-          <li>
-            <a href="layout_sidebar_closed.html">
-              Sidebar Closed Page
-            </a>
-          </li>
-          <li>
-            <a href="layout_ajax.html">
-              Content Loading via Ajax
-            </a>
-          </li>
-          <li>
-            <a href="layout_disabled_menu.html">
-              Disabled Menu Links
-            </a>
-          </li>
-          <li>
-            <a href="layout_blank_page.html">
-              Blank Page
-            </a>
-          </li>
-          <li>
-            <a href="layout_boxed_page.html">
-              Boxed Page
-            </a>
-          </li>
-          <li>
-            <a href="layout_language_bar.html">
-              Language Switch Bar
-            </a>
-          </li>
-          <li>
-            <a href="layout_promo.html">
-              Promo Page
-            </a>
-          </li>
+
         </ul>
       </li>
       <li>
