@@ -1,6 +1,5 @@
 package com.dempe.zhizus.admin;
 
-import com.alibaba.fastjson.JSONObject;
 import com.dempe.zhizus.Constants;
 import com.dempe.zhizus.dao.CategoryDao;
 import com.dempe.zhizus.model.Category;
@@ -37,9 +36,6 @@ public class CategoryController {
         model.addAttribute("categorys",categoryDao.findByPid(pid));
         return "admin/index";
     }
-
-
-
     @RequestMapping(value = "/add",method = RequestMethod.POST)
     @ResponseBody
     public String add(@RequestParam String name, @RequestParam String desc,@RequestParam(required = false,defaultValue = Constants.DEFAULT_PID) String pid){

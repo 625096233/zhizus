@@ -9,4 +9,8 @@ package com.dempe.zhizus;
  */
 public interface Constants {
     String DEFAULT_PID = "0";
+
+
+    String IMG_DIR ="/data/webapp/zhizus/nginx/static/imgs/";
+    String IMG_HOST="www.res.zhizus.com/imgs/";
 }
