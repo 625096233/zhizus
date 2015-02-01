@@ -274,31 +274,32 @@
             <h4 class="modal-title">添加商品明细</h4>
           </div>
           <form action="/admin/goodsDetail/add" method="post" enctype="multipart/form-data">
+            <input type="hidden" id="gid" value="${goods.id}">
           <div class="modal-body">
             <div class="form-group">
               <label class="col-md-3 control-label" >尺寸:</label>
               <div class="col-md-7">
-                <select class="form-control input-sm">
-                  <option>40</option>
-                  <option>41</option>
-                  <option>42</option>
-                  <option>43</option>
-                  <option>44</option>
-                  <option>45</option>
+                <select id="size" class="form-control input-sm">
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option value="43">43</option>
+                  <option value="44">44</option>
+                  <option value="45">45</option>
                 </select>
               </div>
             </div>
             <div class="form-group">
               <label class="col-md-3 control-label" >颜色:</label>
               <div class="col-md-7">
-                  <select class="form-control input-sm">
-                    <option>白色</option>
-                    <option>黄色</option>
-                    <option>棕色</option>
-                    <option>蓝色</option>
-                    <option>绿色</option>
-                    <option>红色</option>
-                    <option>黑色</option>
+                  <select id="color" class="form-control input-sm">
+                    <option value="white">白色</option>
+                    <option value="yellow">黄色</option>
+                    <option value="brown">棕色</option>
+                    <option value="blue">蓝色</option>
+                    <option value="green">绿色</option>
+                    <option value="red">红色</option>
+                    <option value="black">黑色</option>
                   </select>
               </div>
             </div>
