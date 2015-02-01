@@ -29,7 +29,7 @@ public class GoodsDetailDao extends BasicDAO<GoodsDetail, Serializable> {
         return find(createQuery().field("gid").equal(gid)).asList();
     }
 
-    public void add(String gid,String color,String size,String imgUrl,int storeNum){
+    public void add(String gid, String color, String size, String imgUrl, int storeNum) {
         GoodsDetail goodsDetail = new GoodsDetail();
         goodsDetail.setGid(gid);
         goodsDetail.setSize(size);

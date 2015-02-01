@@ -1,6 +1,5 @@
 package com.dempe.zhizus.dao;
 
-import com.dempe.zhizus.Constants;
 import com.dempe.zhizus.model.Focus;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.dao.BasicDAO;
@@ -25,7 +24,7 @@ public class FocusDao extends BasicDAO<Focus, Serializable> {
         ensureIndexes();// 自动创建索引
     }
 
-    public void add(String id,String name,String imgID){
+    public void add(String id, String name, String imgID) {
         Focus focus = new Focus();
         focus.setId(id);
         focus.setName(name);
@@ -33,7 +32,7 @@ public class FocusDao extends BasicDAO<Focus, Serializable> {
         save(focus);
     }
 
-    public Focus findById(String id){
-        return findOne("_id",id);
+    public Focus findById(String id) {
+        return findOne("_id", id);
     }
 }

@@ -9,7 +9,7 @@ import com.alibaba.fastjson.JSONObject;
  * Time: 下午12:42
  * To change this template use File | Settings | File Templates.
  */
-public class JSONResult  extends JSONObject {
+public class JSONResult extends JSONObject {
 
     public static JSONResult getResult() {
         JSONResult result = new JSONResult();

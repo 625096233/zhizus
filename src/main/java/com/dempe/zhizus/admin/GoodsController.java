@@ -32,10 +32,11 @@ public class GoodsController {
         return "";
 
     }
+
     @RequestMapping("/detail")
-    public String detail(@RequestParam String gid,Model model){
-        model.addAttribute("goods",goodsDao.findOne("_id", new ObjectId(gid)));
-        model.addAttribute("goodsDetailList",goodsDetailDao.findByGid(gid));
+    public String detail(@RequestParam String gid, Model model) {
+        model.addAttribute("goods", goodsDao.findOne("_id", new ObjectId(gid)));
+        model.addAttribute("goodsDetailList", goodsDetailDao.findByGid(gid));
         return "/admin/goods_detail";
     }
 
@@ -56,7 +57,7 @@ public class GoodsController {
         goods.setPrice3(price3);
         goods.setDesc(desc);
         String gid = goodsDao.save(goods).getId().toString();
-        return "redirect:/admin/goods/detail?gid="+gid;
+        return "redirect:/admin/goods/detail?gid=" + gid;
     }
 
     public String delete(String id) {

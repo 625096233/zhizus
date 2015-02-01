@@ -32,7 +32,6 @@ public class GoodsDetailController {
     @RequestMapping("/add")
     public String add(@RequestParam String gid, @RequestParam String size, @RequestParam String color, @RequestParam
     int storeNum, @RequestParam MultipartFile photo) throws IOException {
-        System.out.println(gid+size+color+storeNum);
         if (photo != null && !photo.isEmpty()) {
             String id = MD5.hash(photo.getBytes());
             String fileName = photo.getOriginalFilename();

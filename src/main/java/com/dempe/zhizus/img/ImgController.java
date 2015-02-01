@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
 
@@ -23,7 +22,7 @@ public class ImgController {
 
 
     @RequestMapping("fileupload")
-    public String index(){
+    public String index() {
         return "admin/fileupload_demo";
     }
 
@@ -36,7 +35,7 @@ public class ImgController {
     public String doFileUpload(@RequestParam MultipartFile file)
             throws IllegalStateException, IOException {
 
-        System.out.println("fileName:"+file.getName());
+        System.out.println("fileName:" + file.getName());
         if (!file.isEmpty()) {
             String path = "imgs";
             //ProjectUtil.getMavenWebProjectPath() + "runtime";

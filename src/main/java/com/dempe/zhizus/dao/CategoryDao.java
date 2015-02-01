@@ -28,16 +28,16 @@ public class CategoryDao extends BasicDAO<Category, Serializable> {
         ensureIndexes();// 自动创建索引
     }
 
-    public void add(String name,String desc){
-        add(name,desc, Constants.DEFAULT_PID);
+    public void add(String name, String desc) {
+        add(name, desc, Constants.DEFAULT_PID);
     }
 
-    public List<Category> findByPid(String pid){
+    public List<Category> findByPid(String pid) {
         return find(createQuery().field("pid").equal(pid)).asList();
     }
 
-    public void add(String name,String desc,String pid){
-        if(StringUtils.isEmpty(pid)){
+    public void add(String name, String desc, String pid) {
+        if (StringUtils.isEmpty(pid)) {
             pid = Constants.DEFAULT_PID;
         }
         Category category = new Category();
@@ -47,7 +47,8 @@ public class CategoryDao extends BasicDAO<Category, Serializable> {
         category.setUpdateTime(new Date());
         save(category);
     }
-    public Category getCategoryByName(String name){
-        return findOne("name",name);
+
+    public Category getCategoryByName(String name) {
+        return findOne("name", name);
     }
 }

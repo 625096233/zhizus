@@ -2,7 +2,6 @@ package com.dempe.zhizus.service;
 
 import com.dempe.zhizus.dao.UserDao;
 import com.dempe.zhizus.model.User;
-import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -20,11 +19,11 @@ public class UserService {
     @Resource
     private UserDao userDao;
 
-    public User login(String username,String password){
-         return userDao.findOne(userDao.createQuery().field("name").equal(username).field("password").equal(password));
+    public User login(String username, String password) {
+        return userDao.findOne(userDao.createQuery().field("name").equal(username).field("password").equal(password));
     }
 
-    public User register(String nickname,String email,String password){
+    public User register(String nickname, String email, String password) {
         User user = new User();
         user.setNickname(nickname);
         user.setEmail(email);
