@@ -219,6 +219,13 @@
                   <th>
                     库存
                   </th>
+                  <th>
+                    Edit
+                  </th>
+                  <th>
+                    Delete
+                  </th>
+
                 </tr>
                 </thead>
                 <tbody>
@@ -274,12 +281,12 @@
             <h4 class="modal-title">添加商品明细</h4>
           </div>
           <form action="/admin/goodsDetail/add" method="post" enctype="multipart/form-data">
-            <input type="hidden" id="gid" value="${goods.id}">
+            <input type="hidden" id="gid" name="gid" value="${goods.id}">
           <div class="modal-body">
             <div class="form-group">
               <label class="col-md-3 control-label" >尺寸:</label>
               <div class="col-md-7">
-                <select id="size" class="form-control input-sm">
+                <select id="size" name="size" class="form-control input-sm">
                   <option value="40">40</option>
                   <option value="41">41</option>
                   <option value="42">42</option>
@@ -292,7 +299,7 @@
             <div class="form-group">
               <label class="col-md-3 control-label" >颜色:</label>
               <div class="col-md-7">
-                  <select id="color" class="form-control input-sm">
+                  <select id="color" name="color" class="form-control input-sm">
                     <option value="white">白色</option>
                     <option value="yellow">黄色</option>
                     <option value="brown">棕色</option>
