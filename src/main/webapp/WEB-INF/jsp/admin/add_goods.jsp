@@ -74,9 +74,7 @@
                   <div class="form-group">
                     <label class="col-md-3 control-label">商品名称</label>
                     <div class="col-md-4">
-                      <input type="text" id="name" name="name" class="form-control" placeholder="名称">
-														<span class="help-block">
-														</span>
+                      <input type="text" id="name" name="name" class="form-control" placeholder="名称"><span class="help-block"></span>
                     </div>
                   </div>
                   <div class="form-group">

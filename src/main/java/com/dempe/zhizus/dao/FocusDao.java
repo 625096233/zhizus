@@ -29,7 +29,7 @@ public class FocusDao extends BasicDAO<Focus, Serializable> {
         Focus focus = new Focus();
         focus.setId(id);
         focus.setName(name);
-        focus.setImgUrl(Constants.IMG_HOST+imgID);
+        focus.setImgUrl(imgID);
         save(focus);
     }
 

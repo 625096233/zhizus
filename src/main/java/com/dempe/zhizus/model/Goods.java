@@ -12,6 +12,8 @@ import org.mongodb.morphia.annotations.Id;
 public class Goods {
     @Id
     private String id;
+
+    private String name;
     //一级类别
     private String pid;
     //二级类别
@@ -25,20 +27,28 @@ public class Goods {
 
     private String desc;
 
-    public String getPid() {
-        return pid;
-    }
-
-    public void setPid(String pid) {
-        this.pid = pid;
-    }
-
     public String getId() {
         return id;
     }
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPid() {
+        return pid;
+    }
+
+    public void setPid(String pid) {
+        this.pid = pid;
     }
 
     public String getCid() {

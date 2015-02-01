@@ -48,7 +48,7 @@ public class FocusController {
                 String extensionName = fileName.substring(fileName.lastIndexOf(".") + 1);
                 String imgName = id + "." + extensionName;
                 FileUtils.saveUploadFile(imgName, Constants.IMG_DIR + FOCUS_IMG_DIR + File.separator, photo);
-                focusDao.add(id, name, FOCUS_IMG_DIR + File.separator + imgName);
+                focusDao.add(id, name, Constants.IMG_HOST+FOCUS_IMG_DIR + File.separator + imgName);
             }
         }
         return "redirect:/admin/focus/list";
