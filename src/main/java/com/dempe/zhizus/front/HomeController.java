@@ -11,12 +11,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * To change this template use File | Settings | File Templates.
  */
 @Controller
-@RequestMapping("/zhizus")
+@RequestMapping("/")
 public class HomeController {
 
-    @RequestMapping("/index")
+    @RequestMapping("/")
     public String index() {
-        System.out.println("admin -----");
         return "front/index";
     }
 }
