@@ -45,6 +45,6 @@
 
 
     <!-- 定义无Controller的path<->view直接映射 -->
-    <mvc:view-controller path="/" view-name="redirect:/zhizus/index"/>
+    <!--<mvc:view-controller path="/" view-name="redirect:/zhizus/index"/>-->
 
 </beans:beans>
