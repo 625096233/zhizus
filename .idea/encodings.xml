@@ -2,34 +2,10 @@
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/documentation" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/template" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/template_rtl" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/about.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/assets" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/checkout.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/contacts.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/faq.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/favicon.ico" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/feature-buttons.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/feature-forms.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/feature-icons.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/feature-typography.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/forgotton-password.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/index-light-footer.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/index.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/item.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/login-page.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/page-404.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/page-500.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/privacy-policy.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/product-list.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/reg-page.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/search-result.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/shopping-cart-null.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/shopping-cart.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/site-map.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/front/zhizus_rtl/terms-conditions-page.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhizus-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhizus-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhizus-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhizus-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhizus-web" charset="UTF-8" />
   </component>
 </project>

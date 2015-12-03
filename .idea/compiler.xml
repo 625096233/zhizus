@@ -22,11 +22,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="zhizus" />
+        <module name="zhizus-admin" />
+        <module name="zhizus-common" />
+        <module name="zhizus-dao" />
+        <module name="zhizus-service" />
+        <module name="zhizus-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="zhizus" target="1.6" />
+      <module name="zhizus-admin" target="1.6" />
+      <module name="zhizus-common" target="1.6" />
+      <module name="zhizus-dao" target="1.6" />
+      <module name="zhizus-service" target="1.6" />
+      <module name="zhizus-web" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

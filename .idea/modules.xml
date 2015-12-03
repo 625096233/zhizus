@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/zhizus.iml" filepath="$PROJECT_DIR$/zhizus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhizus-admin/zhizus-admin.iml" filepath="$PROJECT_DIR$/zhizus-admin/zhizus-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhizus-common/zhizus-common.iml" filepath="$PROJECT_DIR$/zhizus-common/zhizus-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhizus-dao/zhizus-dao.iml" filepath="$PROJECT_DIR$/zhizus-dao/zhizus-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhizus-service/zhizus-service.iml" filepath="$PROJECT_DIR$/zhizus-service/zhizus-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhizus-web/zhizus-web.iml" filepath="$PROJECT_DIR$/zhizus-web/zhizus-web.iml" />
     </modules>
   </component>
 </project>

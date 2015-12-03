@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="zhizus:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="zhizus.war">
-      <element id="artifact" artifact-name="zhizus:war exploded" />
-    </root>
-  </artifact>
-</component>
